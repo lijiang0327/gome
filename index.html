@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>国美商城</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="http://img.gomein.net.cn/favicon.ico" type="image/x-icon">
+  <script src="libraries/jquery/jquery-1.11.1.min.js"></script>
+  <script src="libraries/bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+      <!-- 顶部导航start -->
+      <div class="gome-top">
+          <header class="container header">
+              <div class="collapse navbar-collapse nav-box" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav header-nav">
+                        <li class="header-nav-icon"><a href="#">国美会员</a><i><s>◇</s></i></li>
+                        <li class="header-nav-login"><a href="#">登录</a></li>
+                        <li class="header-nav-register"><a href="#">注册</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right header-nav">
+                        <li><a href="#">我的订单</a></li>
+                        <li class="header-nav-icon"><a href="#">我的国美</a><i><s>◇</s></i></li>
+                        <li class="header-nav-line"></li>
+                        <li class="header-nav-icon header-nav-service"><a href="#"><span class="glyphicon glyphicon-headphones"></span>服务中心</a><i><s>◇</s></i></li>
+                        <li class="header-nav-icon"><a href="#">网站导航</a><i><s>◇</s></i></li>
+                        <li class="header-nav-line"></li>
+                        <li class="header-nav-icon header-nav-mobile"><a href="#"><span class="glyphicon glyphicon-phone"></span>手机国美</a><i><s>◇</s></i></li>
+                  </ul>
+              </div>
+          </header>
+      </div>
+      <!-- 顶部导航end -->
+      <!-- banner start -->
+            <div class="banner">
+                  <div class="banner-top">
+                      <div class="container ">
+                          <a href="#">
+                              <img src="images/0201dingt.jpg" height="80" width="1200" alt="">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="banner-center">
+                      <div class="container ">
+                            <div class="banner-center-left pull-left">
+                                    <a href="#" class="gome-logo">
+                                          <img src="images/logoa.png" alt="国美在线">
+                                    </a>
+                                    <a href="">
+                                          <img src="images/0201logo.gif" alt="">
+                                    </a>
+                            </div>
+                            <div class="banner-center-center pull-left">
+                                    <div class="clearfix">
+                                          <input type="search" name="search" id="search" class="pull-left" placeholder="60万张年货券即将领到">
+                                          <span class="pull-left">
+                                                搜索
+                                                <i class="glyphicon glyphicon-search "></i>
+                                          </span>
+                                    </div>
+                                    <div>
+                                          <span><a href="#">年货5折</a></span>
+                                          <span><a href="#">省钱加油卡</a></span>
+                                          <span><a href="#">满200减100</a></span>
+                                          <span><a href="#">冰洗满减</a></span>
+                                          <span><a href="#">冬装清仓</a></span>
+                                          <span><a href="#">净化器5折</a></span>
+                                          <span><a href="#">环球母婴</a></span>
+                                          <span><a href="#">X6 2487元</a></span>
+                                    </div>
+                            </div>
+                            <div class="banner-center-right pull-right">
+                                  <div class="cart pull-right">
+                                        <a href="#">购物车空了</a>
+                                        <i ></i>
+                                        <span>
+                                            <s class="caret"></s>
+                                            <u></u>
+                                        </span>
+                                  </div>
+                            </div>
+                      </div>
+                  </div>
+                  <div class="banner-bottom">
+                      <div class="container ">
+                            <div class="banner-bottom-left pull-left">
+                                  <ul class="banner-productlist ">
+                                      <li><a href="#">全部商品分类</a></li>
+                                      <li><a href="#">电视 影音</a> <a href="#">智能家居</a></li>
+                                      <li><a href="#">冰箱</a> <a href="#">冰箱</a> <a href="#">空调</a></li>
+                                      <li><a href="#">厨卫 生活电器</a> <a href="#">净化器</a></li>
+                                      <li><a href="#">手机 数码</a> <a href="#">海外购</a></li>
+                                      <li  role="separator" class="divider"><a href="#">电脑办公</a> <a href="#">精品配件</a></li>
+                                      <li><a href="#">住宅家具</a> <a href="#">家装建材</a></li>
+                                      <li><a href="#">床品家纺</a> <a href="#">家居日用</a></li>
+                                      <li><a href="#">食品酒水</a> <a href="#">医疗保健</a></li>
+                                      <li><a href="#">母婴玩具</a> <a href="#">美妆个护</a></li>
+                                      <li> <a href="#">服饰鞋帽</a> <a href="#">箱包奢品</a></li>
+                                      <li><a href="#">运动户外</a> <a href="#">钟表首饰</a></li>
+                                      <li><a href="#">汽车整车 保养 配件</a></li>
+                                      <li><a href="#">黄金收藏</a> <a href="#">文化艺术</a> <a href="#">国美金</a></li>
+                                      <li><a href="#">金融</a> <a href="#">旅行</a> <a href="#">票务</a> <a href="#">众筹</a></li>
+                                      <li><a href="#">充值</a> <a href="#">彩票</a> <a href="#">游戏</a></li>
+                                  </ul>
+                            </div>
+                            <div class="banner-bottom-center pull-left collapse navbar-collapse">
+                                  <ul class="nav navbar-nav">
+                                      <li><a href="#">首页</a></li>
+                                      <li><a href="#">真划算</a></li>
+                                      <li><a href="#">服装城</a></li>
+                                      <li><a href="#">超市</a></li>
+                                      <li><a href="#">电器城</a></li>
+                                      <li><a href="#">智能</a></li>
+                                      <li><a href="#">企业采购</a></li>
+                                      <li><a href="#">国美家</a></li>
+                                      <li><a href="#">海外购</a></li>
+                                      <li><a href="#">国美金融</a></li>
+                                  </ul>
+                            </div>
+                            <div class="banner-bottom-right pull-right">
+                                  <div class="pull-right banner-bottom-right-arrow">
+                                        <span class="banner-bottom-right-arrup"></span>
+                                        <span class="banner-bottom-right-arrdown"></span>
+                                  </div>
+                                  <ul class="banner-bottom-right-img pull-right">
+                                      <li><a href="#"><img src="images/2.1小家电购物车.jpg" height="40" width="160"></a></li>
+                                      <li><a href="#"><img src="images/家居家装-购物车2.1-2.3.jpg"></a></li>
+                                      <li><a href="#"><img src="images/购物车服饰2.1-2.4.jpg"></a></li>
+                                  </ul>
+                            </div>
+                      </div>
+                  </div>
+            </div>
+      <!-- banner end -->
+      <!-- slider start -->
+      <div class="gome-slider">
+             <div class="container">
+                 <div class="gome-slider-center pull-left"  id="gomeSlider">
+                      <ul class="clearfix">
+                      </ul>
+                      <ol>
+                      </ol>
+                      <div class="gome-slider-ctrls">
+                            <span class="gome-slider-ctrls-previes"></span>
+                            <span class="gome-slider-ctrls-next"></span>
+                      </div>
+                 </div>
+                 <div class="gome-slider-left pull-left">
+                        <div class="gome-slider-left-fastnews">
+                              <div class="gome-fastnews-title clearfix">
+                                    <h3 class="pull-left">快讯</h3>
+                                    <a href="#" class="gome-fastnews-title-more pull-right">更多&gt;</a>
+                              </div>
+                              <div class="gome-fastnews-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">公告</a>
+                                            <a href="#">2016年春节181城物流不打烊公告</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">促销</a>
+                                            <a href="#">买海信手机A1送1599元净化器</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">公告</a>
+                                            <a href="#">2016家电回收维修业务放假公告</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">促销</a>
+                                            <a href="#">限时底价囤油 可省1656元</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">促销</a>
+                                            <a href="#">情人节购任性 礼物3折起</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">促销</a>
+                                            <a href="#">48英寸智能彩电1999元起</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">促销</a>
+                                            <a href="#">海信跨品类套购 第四件6折</a>
+                                        </li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="gome-slider-left-lifeservece">
+                              <div class="gome-lifesevece-title clearfix">
+                                  <h3 class="pull-left">生活服务</h3>
+                              </div>
+                              <div class="gome-lifesevece-content">
+                                  <ul class="clearfix">
+                                      <li><a href="#"><span class="glyphicon glyphicon-phone"></span>充值<i class="glyphicon glyphicon-triangle-bottom"></i></a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-plane"></span>车险<i class="glyphicon glyphicon-triangle-bottom"></i></a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-knight"></span>游戏<i class="glyphicon glyphicon-triangle-bottom"></i></a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-road"></span>旅行<i class="glyphicon glyphicon-triangle-bottom"></i></a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-yen"></span>美盈宝</a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-usd"></span>理财</a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-film"></span>电影票</a></li>
+                                      <li><a href="#"><span class="glyphicon glyphicon-user"></span>找服务</a></li>
+                                  </ul>
+                              </div>
+                        </div>
+                 </div>
+             </div>
+      </div>
+      <!-- slider end -->
+      <!-- gome-select start -->
+      <div class="gome-select">
+
+            <div class="container ">
+                  <img src="images/left_300_594.jpg" height="594" width="300" alt="" class="gome-select-img-left">
+                  <img src="images/right_300_594.jpg" height="594" width="300" alt="" class="gome-select-img-right">
+                  <div class="gome-select-title">
+                     <h3>国美精选</h3>
+                  </div>
+                  <div class="pull-left gome-select-left">
+                        <a href="#"><img src="images/品专0左侧长条小家电0125新.jpg" ></a>
+                  </div>
+                  <div class="pull-left gome-select-right">
+                      <ul>
+                            <li><a href="#"><img src="images/品专1彩电0201.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专2海外购0128.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专3今日特卖乐视0127xg1.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专4品牌街油卡0130.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专5空调0201.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专6快消0201.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专7海信手机0131.jpg"></a></li>
+                            <li><a href="#"><img src="images/品专8荣事达0201xg1.jpg"></a></li>
+                      </ul>
+                  </div>
+            </div>
+      </div>
+      <!-- gome-select end -->
+
+      <!-- gome-mobile-3c start -->
+      <div class="gome-mobile gome-floor" id="gomeFirstFloor">
+            <div class="container">
+                  <div class="gome-floor-top clearfix">
+                      <div class="gome-floor-left pull-left">
+                            <div class="gome-floor-title clearfix">
+                                <span class="pull-left">1F </span>
+                                <h3 class="pull-left">手机3C</h3>
+                            </div>
+                            <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                            <ul class="clearfix">
+                              <li><a href="#">手机频道</a></li>
+                              <li><a href="#">电脑超市</a></li>
+                              <li><a href="#">数码频道</a></li>
+                              <li><a href="#">配件频道</a></li>
+                            </ul>
+                            <ul class="clearfix">
+                              <li><a href="#">iPhone</a></li>
+                              <li><a href="#">iPad</a></li>
+                              <li><a href="#">三星手机</a></li>
+                              <li><a href="#">联想电脑</a></li>
+                              <li><a href="#">华为手机</a></li>
+                              <li><a href="#">华硕电脑</a></li>
+                              <li><a href="#">打印机</a></li>
+                              <li><a href="#">单反相机</a></li>
+                            </ul>
+                      </div>
+                      <div class="gome-floor-right pull-left">
+                              <ul class="clearfix gome-floor-right-title">
+                                  <li target="gomeFirstFloorFirst" class="current">精选热卖</li>
+                                  <li target="gomeFirstFloorSecond">手机</li>
+                                  <li target="gomeFirstFloorThird">数码</li>
+                                  <li target="gomeFirstFloorFourth">电脑</li>
+                                  <li target="gomeFirstFloorFivth">OA办公</li>
+                                  <li target="gomeFirstFloorSixth">配件</li>
+                                  <li target="gomeFirstFloorSeventh">淘实惠</li>
+                              </ul>
+                              <div>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorFirst">
+                                      <li class="bd-right bd-bottom gomeFloorSlide">
+                                          <ul class="gome-floor-right-slider clearfix">
+                                              <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                              <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                              <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                          </ul>
+                                          <span class="gome-floor-right-slider-previes"></span>
+                                          <span class="gome-floor-right-slider-next"></span>
+                                      </li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                      <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                  </ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorSecond"></ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorThird"></ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorFourth"></ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorFivth"></ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorSixth"></ul>
+                                  <ul class="gome-floor-right-content clearfix" id="gomeFirstFloorSeventh"></ul>
+                              </div>
+                      </div>
+                  </div>
+                  <div class="gome-floor-bottom">
+                        <ul class="clearfix">
+                          <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                          <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                        </ul>
+                  </div>
+            </div>
+      </div>
+
+      <!-- gome-mobile-3c end -->
+      <!-- gome-2f start -->
+        <div class="gome-mobile gome-floor" id="gomeSecondFloor">
+            <div class="container">
+                  <div class="gome-floor-top clearfix">
+                      <div class="gome-floor-left pull-left">
+                            <div class="gome-floor-title clearfix">
+                                <span class="pull-left">2F </span>
+                                <h3 class="pull-left">家用电器</h3>
+                            </div>
+                            <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                            <ul class="clearfix">
+                              <li><a href="#">电视频道</a></li>
+                              <li><a href="#">冰箱频道</a></li>
+                              <li><a href="#">空调频道</a></li>
+                              <li><a href="#">洗衣机频道</a></li>
+                            </ul>
+                            <ul class="clearfix">
+                              <li><a href="#">4K超清电视</a></li>
+                              <li><a href="#">智能电视</a></li>
+                              <li><a href="#">双门/三门</a></li>
+                              <li><a href="#">多门/对开门</a></li>
+                              <li><a href="#">全自动</a></li>
+                              <li><a href="#">滚筒洗衣机</a></li>
+                              <li><a href="#">1匹空调</a></li>
+                              <li><a href="#">1.5匹空调</a></li>
+                            </ul>
+                      </div>
+                      <div class="gome-floor-right pull-left">
+                              <ul class="clearfix gome-floor-right-title">
+                                  <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                  <li target="gomeSecondFloorSecond">电视</li>
+                                  <li target="gomeSecondFloorThird">冰箱</li>
+                                  <li target="gomeSecondFloorFourth">洗衣机</li>
+                                  <li target="gomeSecondFloorFivth">空调</li>
+                                  <li target="gomeSecondFloorSixth">影音</li>
+                                  <li target="gomeSecondFloorSeventh">配件</li>
+                              </ul>
+                              <div >
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                        <li class="bd-right bd-bottom gomeFloorSlide">
+                                            <ul class="gome-floor-right-slider clearfix">
+                                                <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                            </ul>
+                                            <span class="gome-floor-right-slider-previes"></span>
+                                            <span class="gome-floor-right-slider-next"></span>
+                                        </li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                        <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                    </ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                    <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                              </div>
+                      </div>
+                  </div>
+                  <div class="gome-floor-bottom">
+                        <ul class="clearfix">
+                          <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                          <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                          <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                          <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                        </ul>
+                  </div>
+            </div>
+      </div>
+      <!-- gome-2f end -->
+      <!-- gome-3f start -->
+          <div class="gome-mobile gome-floor" id="gomeThirdFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">3F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-3f end -->
+            <!-- gome-4f start -->
+          <div class="gome-mobile gome-floor" id="gomeFourthFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">4F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-4f end -->
+      <!-- gome-5f start -->
+          <div class="gome-mobile gome-floor" id="gomeFivthFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">5F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-5f end -->
+      <!-- gome-6f start -->
+          <div class="gome-mobile gome-floor" id="gomeSixthFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">6F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-6f end -->
+      <!-- gome-7f start -->
+          <div class="gome-mobile gome-floor" id="gomeSeventhFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">7F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-7f end -->
+      <!-- gome-8f start -->
+          <div class="gome-mobile gome-floor" id="gomeEighthFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">8F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-8f end -->
+      <!-- gome-9f start -->
+          <div class="gome-mobile gome-floor" id="gomeNinthFloor">
+                <div class="container">
+                      <div class="gome-floor-top clearfix">
+                          <div class="gome-floor-left pull-left">
+                                <div class="gome-floor-title clearfix">
+                                    <span class="pull-left">9F </span>
+                                    <h3 class="pull-left">家用电器</h3>
+                                </div>
+                                <a href="#"><img src="images/左侧-3C年货专场2.1-2.3.jpg" ></a>
+                                <ul class="clearfix">
+                                  <li><a href="#">电视频道</a></li>
+                                  <li><a href="#">冰箱频道</a></li>
+                                  <li><a href="#">空调频道</a></li>
+                                  <li><a href="#">洗衣机频道</a></li>
+                                </ul>
+                                <ul class="clearfix">
+                                  <li><a href="#">4K超清电视</a></li>
+                                  <li><a href="#">智能电视</a></li>
+                                  <li><a href="#">双门/三门</a></li>
+                                  <li><a href="#">多门/对开门</a></li>
+                                  <li><a href="#">全自动</a></li>
+                                  <li><a href="#">滚筒洗衣机</a></li>
+                                  <li><a href="#">1匹空调</a></li>
+                                  <li><a href="#">1.5匹空调</a></li>
+                                </ul>
+                          </div>
+                          <div class="gome-floor-right pull-left">
+                                  <ul class="clearfix gome-floor-right-title">
+                                      <li target="gomeSecondFloorFirst" class="current">精选热卖</li>
+                                      <li target="gomeSecondFloorSecond">电视</li>
+                                      <li target="gomeSecondFloorThird">冰箱</li>
+                                      <li target="gomeSecondFloorFourth">洗衣机</li>
+                                      <li target="gomeSecondFloorFivth">空调</li>
+                                      <li target="gomeSecondFloorSixth">影音</li>
+                                      <li target="gomeSecondFloorSeventh">配件</li>
+                                  </ul>
+                                  <div >
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFirst">
+                                            <li class="bd-right bd-bottom gomeFloorSlide" >
+                                                <ul class="gome-floor-right-slider clearfix">
+                                                    <li><a href="#"><img src="images/电脑楼层.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/首页轮播图手机分会场.jpg" alt=""></a></li>
+                                                    <li><a href="#"><img src="images/数码年货楼层主焦通用569_259.jpg" alt=""></a></li>
+                                                </ul>
+                                                <span class="gome-floor-right-slider-previes"></span>
+                                                <span class="gome-floor-right-slider-next"></span>
+                                            </li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/apple右上.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/数码右上2.1-2.5.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/LX.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/索尼轮播下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/白色watch楼层通用单品189_218.png" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/荣耀旗舰店下.jpg" alt=""></a></li>
+                                            <li class="bd-right bd-bottom"><a href="#"><img src="images/0元右下1.16.jpg" alt=""></a></li>
+                                        </ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSecond"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorThird"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFourth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorFivth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSixth"></ul>
+                                        <ul class="gome-floor-right-content clearfix" id="gomeSecondFloorSeventh"></ul>
+                                  </div>
+                          </div>
+                      </div>
+                      <div class="gome-floor-bottom">
+                            <ul class="clearfix">
+                              <li><a href="#"><img src="images/2.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt="images/grey.gif"></a></li>
+                              <li><a href="#"><img src="images/dell-sylc.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/OPPO.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/100-30wx.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/佳能-楼层底部logo100_30.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/ThinkPad.png" alt=""></a></li>
+                              <li><a href="#"><img src="images/ningmei国故.jpg" alt=""></a></li>
+                              <li><a href="#"><img src="images/apple.jpg" alt="images/grey.gif"></a></li>
+                            </ul>
+                      </div>
+                </div>
+          </div>
+      <!-- gome-9f end -->
+
+        <script src="js/index.js"></script>
+</body>
+</html>
